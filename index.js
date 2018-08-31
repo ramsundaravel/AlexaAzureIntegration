@@ -4,7 +4,8 @@ const app = express()
 // console.log(typeof(express))
 
 app.get("/name",(req,res)=>{
-        res.send('Hello world')
+        res.send('Hello world from Development')
     }
 )
+
 app.listen(port, ()=>{console.log('Listening on Port 300')})
