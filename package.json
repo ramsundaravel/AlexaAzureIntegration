@@ -1,0 +1,22 @@
+{
+  "name": "alexaazureintegration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramsundaravel/AlexaAzureIntegration.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramsundaravel/AlexaAzureIntegration/issues"
+  },
+  "homepage": "https://github.com/ramsundaravel/AlexaAzureIntegration#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
