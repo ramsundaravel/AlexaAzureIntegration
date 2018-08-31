@@ -30,7 +30,7 @@ app.post('/alexa', function(req, res) {
     var callfaq = true;
    
     if (ask_type == "LaunchRequest"){
-      rslt = "Hi! I am a demo bot replaying from microsoft azure platform";
+      rslt = "Hi! I am a demo bot sending response from microsoft azure platform";
       res.send(JSON.stringify({ "version": "1.0", "response":{ "outputSpeech":{ "type": "PlainText","text": rslt}, "speechletResponse":{"outputSpeech": {"text":rslt}}, "shouldEndSession": true} }));
     }
   });
