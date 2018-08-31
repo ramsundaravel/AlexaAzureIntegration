@@ -1,5 +1,5 @@
 const express = require('express');
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 1473;
 const app = express();
 const bodyParser = require('body-parser');
 app.use(bodyParser.json()); // support json encoded bodies
